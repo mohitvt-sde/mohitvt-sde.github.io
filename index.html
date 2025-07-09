@@ -3,7 +3,8 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Mohit | Portfolio</title>
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+  <!-- Cache-busting version added below -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css?v=1.0.3" />
   <style>
     * { margin: 0; padding: 0; box-sizing: border-box; }
     body { font-family: 'Segoe UI', sans-serif; background: #f4f4f4; color: #333; }
@@ -23,7 +24,7 @@
 </head>
 <body>
   <header>
-    <h1> V T Mohit</h1>
+    <h1>V T Mohit</h1>
     <p>Software Engineer | CRM Architect | Fintech Solutions Specialist</p>
   </header>
 
@@ -51,16 +52,21 @@
         <p>Leads and sales tracking dashboard with DataTables, filters, and admin actions.</p>
         <a href="https://github.com/mohitvt-sde/pipeline-report-ui" target="_blank">View on GitHub</a>
       </div>
+    </div>
   </section>
 
   <section id="contact">
     <h2>Contact</h2>
     <p>Email: <a href="mailto:mohitcandy2728@gmail.com">mohitcandy2728@gmail.com</a></p>
-    <p>LinkedIn: <a href="[https://linkedin.com/in/mohitvt](https://www.linkedin.com/in/mohit-v-t-5abb26198?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app)" target="_blank">linkedin.com/in/mohitvt</a></p>
+    <p>LinkedIn: 
+      <a href="https://www.linkedin.com/in/mohit-v-t-5abb26198?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank">
+        linkedin.com/in/mohitvt
+      </a>
+    </p>
   </section>
 
-  <footer>
-    <p>&copy; 2025 Mohit. Built with 💻 and ☕</p>
-  </footer>
+<footer>
+  <p>© 2025 Mohit | Crafting digital solutions with clean code and passion</p>
+</footer>
 </body>
 </html>
